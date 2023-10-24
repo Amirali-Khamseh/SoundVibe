@@ -6,10 +6,11 @@ import { ReactComponent as PauseIcon } from "../../assets/Icons/Pause.svg";
 import { ReactComponent as Speaker } from "../../assets/Icons/Speaker.svg";
 import { ReactComponent as Search } from "../../assets/Icons/Search.svg";
 import { ReactComponent as Like } from "../../assets/Icons/Like.svg";
+import { ReactComponent as LogoIcon } from "../../assets/Icons/LogoIcon.svg";
 
 const Play = styled(PlayIcon)`
-  fill: ${(props) => props.color};
-  stroke: ${(props) => props.color};
+  fill: ${(props) => props.color || "white"};
+  stroke: ${(props) => props.color || "white"};
 `;
 const SkipLeft = styled(Skip)`
   fill: ${(props) => props.color || "white"};
@@ -52,4 +53,5 @@ export {
   SpeakerIcon,
   SearchIcon,
   LikeIcon,
+  LogoIcon,
 };
