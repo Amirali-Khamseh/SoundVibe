@@ -1,18 +1,17 @@
-import React from "react";
-import { LogoIcon } from "../../components/ui/Icons";
-import { SectionSubTitle } from "../../components/ui/Typography";
-import { SearchIcon } from "../../components/ui/Icons";
-import IconButton from "../../components/ui/IconButton";
+import IconButton from "components/ui/IconButton";
+import { Logo, Search } from "components/ui/Icons";
+import { SectionSubtitle } from "components/ui/Typography";
 import { LogoWrapper, Wrapper } from "./styled";
+
 function Header() {
   return (
     <Wrapper>
       <LogoWrapper>
-        <LogoIcon />
-        <SectionSubTitle>SoundVibe</SectionSubTitle>
+        <Logo />
+        <SectionSubtitle>ZaMusic</SectionSubtitle>
       </LogoWrapper>
-      <IconButton width={58} height={58} withBackground>
-        <SearchIcon />
+      <IconButton withBackground height={58} width={58}>
+        <Search />
       </IconButton>
     </Wrapper>
   );

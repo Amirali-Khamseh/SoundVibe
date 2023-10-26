@@ -3,9 +3,9 @@ export const theme = {
     white: "#FFFFFF",
     black: "#040D1B",
     secondaryBlack: "#0F1928",
-    grey: "#878787",
-    pink: "#E2577F",
-    lightPurple: "#4E3FE4",
+    secondaryGrey: "#878787",
+    primary: "#E2577F",
+    purple: "#4E3FE4",
     lightWhite: "rgba(255, 255, 255, 0.2)",
   },
   fonts: {
@@ -15,6 +15,6 @@ export const theme = {
   fontWeights: {
     bold: 600,
     semibold: 500,
-    normal: 400,
+    norma: 400,
   },
 };

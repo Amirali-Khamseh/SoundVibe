@@ -1,19 +1,20 @@
-import { Wrapper, TextWrapper, PlayButton } from "./styled";
-import RadioHeroSectionDesktop from "../../../assets/Images/Radio-hero-section-desktop.png";
-import { ButtonText, MainTitle, Text } from "../../ui/Typography";
-import { Play } from "../../ui/Icons";
+import DesktopRadioImage from "assets/images/radio-desktop.png";
+import { Play } from "components/ui/Icons";
+import { ButtonText, MainTitle } from "components/ui/Typography";
+import { PlayButton, TextWrapper, Wrapper, HeroText } from "./styled";
+
 function Hero() {
   return (
     <Wrapper>
       <TextWrapper>
-        <MainTitle> Hello!</MainTitle>
-        <Text>Pick what sounds the best to you</Text>
+        <MainTitle>Radio</MainTitle>
+        <HeroText>Pick your todays mood. We will play a perfect mix!</HeroText>
         <PlayButton>
           <Play />
           <ButtonText>Play</ButtonText>
         </PlayButton>
       </TextWrapper>
-      <img src={RadioHeroSectionDesktop} alt="radio" />
+      <img src={DesktopRadioImage} alt="Hands holding radio" />
     </Wrapper>
   );
 }
