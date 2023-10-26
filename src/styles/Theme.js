@@ -17,4 +17,9 @@ export const theme = {
     semibold: 500,
     norma: 400,
   },
+  zIndex: {
+    10: 10,
+    20: 20,
+    30: 30,
+  },
 };

@@ -8,7 +8,7 @@ function Header() {
     <Wrapper>
       <LogoWrapper>
         <Logo />
-        <SectionSubtitle>ZaMusic</SectionSubtitle>
+        <SectionSubtitle>SoundVibe</SectionSubtitle>
       </LogoWrapper>
       <IconButton withBackground height={58} width={58}>
         <Search />
