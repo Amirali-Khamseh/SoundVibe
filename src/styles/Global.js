@@ -18,6 +18,10 @@ export const GlobalStyles = styled.createGlobalStyle`
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.black};
   }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
   /* Inherit fonts for inputs and buttons */
   input,
   button,
@@ -38,5 +42,9 @@ export const GlobalStyles = styled.createGlobalStyle`
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
+  }
+  /* Overwrite rc-slider library default styles */
+  .rc-slider-handle-dragging {
+    box-shadow: 0 0 0 5px ${({ theme }) => theme.colors.white} !important;
   }
 `;
