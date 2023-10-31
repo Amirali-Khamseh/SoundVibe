@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import Skeleton from "react-loading-skeleton";
-import axios from "axios";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowLeft, ArrowRight } from "components/ui/Icons";
 import { SectionSubtitle } from "components/ui/Typography";
 import GenreCard from "./GenreCard";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 import { loadGenres } from "services/api";
 import {
   Wrapper,
@@ -77,7 +77,9 @@ function Genres() {
           {!isLoading &&
             genres?.map((genre) => (
               <SwiperSlide key={genre.id} style={{ width: "auto" }}>
-                <GenreCard name={genre.name} backgroundImage={genre.picture_medium} />
+                <Link to={`/genres/${genre.id}`}>
+                  <GenreCard name={genre.name} backgroundImage={genre.picture_medium} />
+                </Link>
               </SwiperSlide>
             ))}
         </Swiper>

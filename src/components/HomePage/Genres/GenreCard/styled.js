@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { SectionSubtitle } from "components/ui/Typography";
-import { theme } from "styles/Theme";
+
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;

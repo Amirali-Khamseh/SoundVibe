@@ -1,16 +1,13 @@
-import { useReducer } from "react";
+import { useReducer, useEffect } from "react";
 import { initialState, playerReducer } from "context/playerReducer";
 import { PlayerContext, PlayerDispatchContext } from "context/playerContext";
 import { ThemeProvider } from "styled-components";
 import { SkeletonTheme } from "react-loading-skeleton";
 import { theme } from "styles/Theme";
-import Home from "pages/Home";
 import { GlobalStyles } from "styles/Global";
 import { ToastContainer } from "react-toastify";
-import { Route, Routes } from "react-router-dom";
-import Search from "pages/Search";
-import { Layout } from "layout";
-import Error from "pages/Error";
+import { setStorageValue } from "services/localStorage";
+import AppRouter from "AppRouter";
 //CSS Imports
 import "react-loading-skeleton/dist/skeleton.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -18,6 +15,10 @@ import "rc-slider/assets/index.css";
 
 function App() {
   const [state, dispatch] = useReducer(playerReducer, initialState);
+  useEffect(() => {
+    setStorageValue("savedTrackIds", state.savedTrackIds);
+  }, [state.savedTrackIds]);
+
   return (
     <PlayerContext.Provider value={state}>
       <PlayerDispatchContext.Provider value={dispatch}>
@@ -27,13 +28,7 @@ function App() {
             highlightColor={theme.colors.lightWhite}
           >
             <GlobalStyles />
-            <Routes>
-              <Route path="/" element={<Layout />}>
-                <Route index element={<Home />} />
-                <Route path="/search" element={<Search />} />
-                <Route path="*" element={<Error />} />
-              </Route>
-            </Routes>
+            <AppRouter />
             <ToastContainer
               position="bottom-left"
               autoClose={5000}
