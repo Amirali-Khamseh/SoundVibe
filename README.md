@@ -25,6 +25,7 @@ yarn start
 ```
 
 ![SoundVibe website](image.png | width=100)
+<img src="image.png" width="100" height="100">
 _Home page_ <br>
 ![Mobile player](image-1.png | width=100)
 _Custom mobile player_ <br>
