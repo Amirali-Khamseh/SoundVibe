@@ -13,7 +13,6 @@ function Search() {
 
   useEffect(() => {
     const loadData = async () => {
-      // TODO: Add debounce
       try {
         setIsLoading(true);
         const data = await search(searchQuery);
