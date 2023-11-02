@@ -24,9 +24,9 @@ yarn install
 yarn start
 ```
 
-<img src="image.png" width="400"  style="object-fit:cover;">
-* Home page * <br>
+<img src="image.png" width="800"  style="object-fit:cover;">
+  <sub>Home page</sub>   <br>
 <img src="image-1.png" width="400"  style="object-fit:cover;">
-* Custom mobile player * <br>
+<sub>Custom mobile player</sub> <br>
 <img src="image-2.png" width="400" style="object-fit:cover;">
-* Search Player *
+<sub> Search Player</sub>
