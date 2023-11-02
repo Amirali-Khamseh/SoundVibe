@@ -24,8 +24,8 @@ function Hero({ tracks }) {
   return (
     <Wrapper>
       <TextWrapper>
-        <HeroTitleText>Radio</HeroTitleText>
-        <HeroText>Pick your todays mood. We will play a perfect mix!</HeroText>
+        <HeroTitleText>Vibe it out </HeroTitleText>
+        <HeroText>Pick the sound that makes your vibe </HeroText>
         <PlayButton disabled={!tracks || tracks.length <= 0} onClick={handlePlayClick}>
           <Play />
           <ButtonText>Play</ButtonText>
