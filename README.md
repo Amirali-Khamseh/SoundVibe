@@ -24,9 +24,9 @@ yarn install
 yarn start
 ```
 
-![SoundVibe website](image.png)
+![SoundVibe website](image.png){ width: 200px; }
 _Home page_ <br>
-![Mobile player](image-1.png)
+![Mobile player](image-1.png) { width: 200px; }
 _Custom mobile player_ <br>
-![Search Page](image-2.png)
+![Search Page](image-2.png){ width: 200px; }
 _Search Player_ <br>
