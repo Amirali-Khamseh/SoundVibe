@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import SearchIcon from "assets/icons/search.svg";
+import Searchi from "assets/icons/search.svg";
 import TracksTable from "components/TracksTable";
 import Input from "components/ui/Input";
 import { search } from "services/api";
@@ -36,7 +36,7 @@ function Search() {
           placeholder="Search..."
           value={searchQuery}
           onChange={(event) => setSearchQuery(event.target.value)}
-          startIcon={SearchIcon}
+          startIcon={Searchi}
         />
       </InputWrapper>
       {searchQuery && (

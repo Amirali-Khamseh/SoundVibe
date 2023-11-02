@@ -53,7 +53,7 @@ const Users = styled(UsersIcon)`
   stroke: ${(props) => props.color || "white"};
 `;
 
-const Search = styled(SearchIcon)`
+const Searchi = styled(SearchIcon)`
   fill: ${(props) => props.color || "white"};
 `;
 
@@ -68,6 +68,6 @@ export {
   ArrowLeft,
   Heart,
   Users,
-  Search,
+  Searchi,
   Logo,
 };

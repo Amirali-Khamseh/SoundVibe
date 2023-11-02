@@ -1,5 +1,5 @@
 import IconButton from "components/ui/IconButton";
-import { Logo, Search } from "components/ui/Icons";
+import { Logo, Searchi } from "components/ui/Icons";
 import { SectionSubtitle } from "components/ui/Typography";
 import { LogoWrapper, Wrapper } from "./styled";
 import { ContentWrapper } from "layout";
@@ -17,7 +17,7 @@ function Header() {
         </Link>
         <Link to="/search">
           <IconButton withBackground height={58} width={58}>
-            <Search />
+            <Searchi />
           </IconButton>
         </Link>
       </ContentWrapper>
