@@ -24,10 +24,9 @@ yarn install
 yarn start
 ```
 
-![SoundVibe website](image.png | width=100)
-<img src="image.png" width="100" height="100">
+<img src="image.png" width="400" height="400">
 _Home page_ <br>
-![Mobile player](image-1.png | width=100)
+<img src="image-1.png" width="400" height="400">
 _Custom mobile player_ <br>
-![Search Page](image-2.png | width=100)
+<img src="image-2.png" width="400" height="400">
 _Search Player_ <br>
