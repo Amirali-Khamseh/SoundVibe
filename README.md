@@ -25,8 +25,8 @@ yarn start
 ```
 
 <img src="image.png" width="400"  style="object-fit:cover;">
-*Home page* <br>
+* Home page * <br>
 <img src="image-1.png" width="400"  style="object-fit:cover;">
-*Custom mobile player* <br>
+* Custom mobile player * <br>
 <img src="image-2.png" width="400" style="object-fit:cover;">
-*Search Player*
+* Search Player *
