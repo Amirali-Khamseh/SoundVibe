@@ -7,7 +7,7 @@ import { Music } from "components/ui/Icons";
 import { MainTitle, SmallText } from "components/ui/Typography";
 import { loadGenre } from "services/api";
 import { SongsCountWrapper, TextWrapper, Wrapper } from "./styled";
-
+import { theme } from "styles/Theme";
 function Genre() {
   const { genreId } = useParams();
   const [genre, setGenre] = useState();
@@ -33,7 +33,7 @@ function Genre() {
       <TextWrapper>
         <MainTitle>{genre?.genre?.name || <Skeleton width={200} />}</MainTitle>
         <SongsCountWrapper>
-          <Music />
+          <Music color={theme.colors.secondaryGrey} />
           <SmallText>
             {isLoading ? (
               <Skeleton width={40} />
