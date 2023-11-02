@@ -25,8 +25,8 @@ yarn start
 ```
 
 ![SoundVibe website](image.png)
-_Home page_
+_Home page_ <br>
 ![Mobile player](image-1.png)
-_Custom mobile player_
+_Custom mobile player_ <br>
 ![Search Page](image-2.png)
-_Search Player_
+_Search Player_ <br>
