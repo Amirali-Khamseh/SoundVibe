@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+**_Live demo : https://soundvibe-react.netlify.app/_**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sound Vibe
 
-## Available Scripts
+SoundVibe is a modern React application that has been built in collaboration with ZackAcademy. This project serves as a web interface for playing and previewing the top songs from musical charts. It enables users to search for tracks in different languages, from artists around the globe, and provides a live radio stream. The application is also equipped with a classification system for different songs in different musical categories, and a dedicated interface for each artist's songs. Additionally, users can mark their favorite tracks and use the custom player on any device.
 
-In the project directory, you can run:
+# Technical objectives
 
-### `npm start`
+The project is built on a component-based architecture that follows a modular folder structure for file management. The source of data is the 'https://www.deezer.com/en/' API that provides complete details about trending songs and artists. React Router has been used to implement specific pages for each section of the web app, and error pages have been added for edge cases.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The components in this project are made using styled-components, and each individual component has its own set of styles suitable for different screen devices. The Context API of React has been used to manage the state globally and keep track of songs. The list of tracks is controlled with the help of reducer functions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The browser's local storage has been employed to keep track of favorite songs and make them easily accessible on each visit. The React Skeleton has been configured responsively for each individual component, providing a smooth loading layer before the data is fetched. React Error Boundary was also used to prevent the app from crashing and to provide a better user experience. Toast has been configured to provide meaningful messages on each occasion on the client's side.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Make sure you have Node (v20.8.1 has been used on this project) installed on your system or download it from https://nodejs.org/en.
 
-### `npm run build`
+- Clone this repository or download the zip file .
+- Open the terminal on the same directory and run the following commands to install the dependencies and run the project .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn install
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![SoundVibe website](image.png)
+_Home page_
+![Mobile player](image-1.png)
+_Custom mobile player_
+![Search Page](image-2.png)
+_Search Player_
