@@ -2,7 +2,7 @@
 
 # Sound Vibe
 
-SoundVibe is a modern React application that has been built in collaboration with ZackAcademy. This project serves as a web interface for playing and previewing the top songs from musical charts. It enables users to search for tracks in different languages, from artists around the globe, and provides a live radio stream. The application is also equipped with a classification system for different songs in different musical categories, and a dedicated interface for each artist's songs. Additionally, users can mark their favorite tracks and use the custom player on any device.
+SoundVibe is a modern React application that had been built in collaboration with Zacker Academy. This project serves as a web interface for playing and previewing the top songs from musical charts. It enables users to search for tracks in different languages, from artists around the globe, and provides a live radio stream. The application is also equipped with a classification system for different songs in different musical categories, and a dedicated interface for each artist's songs. Additionally, users can mark their favorite tracks and use the custom player on any device.
 
 # Technical objectives
 
