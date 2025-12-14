@@ -20,8 +20,8 @@ To remember your favorite songs, I used the browser's local storage, so they're 
 - Open the terminal on the same directory and run the following commands to install the dependencies and run the project .
 
 ```
-yarn install
-yarn start
+npm install
+npm start
 ```
 
 <img src="image1-1.png" width="800"  style="object-fit:cover;">
