@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import { ReactComponent as SearchIcon } from "assets/icons/search.svg";
-import { ReactComponent as ArrowRightIcon } from "assets/icons/arrow-right.svg";
-import { ReactComponent as MusicIcon } from "assets/icons/music.svg";
-import { ReactComponent as SkipIcon } from "assets/icons/skip.svg";
-import { ReactComponent as VolumeIcon } from "assets/icons/volume.svg";
-import { ReactComponent as PlayIcon } from "assets/icons/play.svg";
-import { ReactComponent as HeartIcon } from "assets/icons/heart.svg";
-import { ReactComponent as PauseIcon } from "assets/icons/pause.svg";
-import { ReactComponent as UsersIcon } from "assets/icons/users.svg";
-import { ReactComponent as Logo } from "assets/icons/logo.svg";
+import SearchIcon from "assets/icons/search.svg?react";
+import ArrowRightIcon from "assets/icons/arrow-right.svg?react";
+import MusicIcon from "assets/icons/music.svg?react";
+import SkipIcon from "assets/icons/skip.svg?react";
+import VolumeIcon from "assets/icons/volume.svg?react";
+import PlayIcon from "assets/icons/play.svg?react";
+import HeartIcon from "assets/icons/heart.svg?react";
+import PauseIcon from "assets/icons/pause.svg?react";
+import UsersIcon from "assets/icons/users.svg?react";
+import Logo from "assets/icons/logo.svg?react";
 const Play = styled(PlayIcon)`
   fill: ${(props) => props.color || "white"};
   stroke: ${(props) => props.color || "white"};
